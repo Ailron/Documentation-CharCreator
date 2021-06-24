@@ -1,6 +1,7 @@
 ## Présentation
 
 CharCreator est un script sous RageUI reconstituant au plus proche la création de personnage GTA ONLINE lors de son début . 
+
 CharCreator est une ressource assez lourde et doit posséder quelques dépendances basiques pour fonctionner et avoir la meilleure expérience .
 
 ### Pour Commencer
