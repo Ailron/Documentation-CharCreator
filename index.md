@@ -1,8 +1,8 @@
-## Présentation
+## Presentation
 
-You can use the [editor on GitHub](https://github.com/Ailron/Documentation-CharCreator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+CharCreator is a script under RageUI which reconstructs the GTA ONLINE character creation as closely as possible when when you started Online.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+CharCreator is a heavy resource and needs to have some basic dependencies to work for the best experience.
 
 ### Pour Commencer
 
