@@ -4,9 +4,12 @@ CharCreator est un script sous RageUI reconstituant au plus proche la création 
 
 CharCreator est une ressource assez lourde et doit posséder quelques dépendances basiques pour fonctionner et avoir la meilleure expérience .
 
-### Pour Commencer
+### Dépendance
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
+- skinchanger
+- esx_skin
+- esx_identity (falcutatif)
 
 ```markdown
 Syntax highlighted code block
