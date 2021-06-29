@@ -15,7 +15,7 @@ CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
 Après être assuré d'avoir installer au moins les deux ressources obligatoires , il vous faudras faire quelques modifications dessus pour que CharCreator fonctionne correctement.
 
 ### SkinChanger
-Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/main.lua` à partir de la ligne 1 , il vous faudra impérativement rajouter cette partie de code . **Attention selon votre version certaine ligne de ce code se situe peut-être déjà dans votre liste vérifiez donc les doublons** :
+1. Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/main.lua` à partir de la ligne 1 , il vous faudra impérativement rajouter cette partie de code . **Attention selon votre version certaine ligne de ce code se situe peut-être déjà dans votre liste vérifiez donc les doublons** :
 
 ```markdown
 -- CharCreator Section
@@ -42,6 +42,19 @@ Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/
 {label = _U('chin_hole'),				name = 'chin_hole',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 {label = _U('neck_thick'),				name = 'neck_thick',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 ```
+
+2. Pour la catégorie vêtements , CharCreator a besoin de savoir quelles sont les vêtements à ajouter dans cette catégories , Toujours à partir de la ligne 1 jusqu'à la fin de la liste il vous faudras ajouter à l'intérieur de la ligne une variable : `clothe = true` pour les ligne où `name` =
+ `'tshirt_1'` , `'tshirt_2'` , `'torso_1'` , `'torso_2'` , `'decals_1'` , `'decals_2'` , `'arms'` , `'arms_2'` , `'pants_1'` , `'pants_2'` , `'shoes_1'` , `'shoes_2'` , `'mask_1'` , `'mask_2'` , `'chain_1'` , `'chain_2'` , `'helmet_1'` , `'helmet_2'` , `'glasses_1'` , `'glasses_2'` , `'watches_1'` , `'watches_2'` , `'bracelets_1'` , `'bracelets_2'` , `'bags_1'` , `'bags_2'`.
+ 
+Exemple : pour `'tshirt_1'` vous passerez de cela :
+```markdown
+{label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8},
+```
+A cela :
+```markdown
+{label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8, clothe = true},
+```
+Et vous répéterez cela pour tous ce qui vous sont demandez .
 ```markdown
 Syntax highlighted code block
 
