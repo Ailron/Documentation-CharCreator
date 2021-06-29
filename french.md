@@ -8,8 +8,8 @@ CharCreator est une ressource assez lourde et doit posséder quelques dépendanc
 
 CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
 - [skinchanger](https://github.com/esx-framework/skinchanger)
-- esx_skin
-- esx_identity (facultatif)
+- [esx_skin](https://github.com/esx-framework/esx_skin)
+- [esx_identity](https://github.com/esx-framework/esx_identity) (facultatif)
 
 ```markdown
 Syntax highlighted code block
