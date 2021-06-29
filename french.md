@@ -1,4 +1,4 @@
-## Présentation
+# Présentation
 
 CharCreator est un script sous RageUI reconstituant au plus proche la création de personnage GTA ONLINE lors de son début . 
 
@@ -10,6 +10,8 @@ CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
 - [skinchanger](https://github.com/esx-framework/skinchanger)
 - [esx_skin](https://github.com/esx-framework/esx_skin)
 - [esx_identity](https://github.com/esx-framework/esx_identity) (facultatif)
+
+
 
 ```markdown
 Syntax highlighted code block
