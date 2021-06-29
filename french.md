@@ -41,7 +41,6 @@ Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/
 {label = _U('chin_width'),				name = 'chin_width',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 {label = _U('chin_hole'),				name = 'chin_hole',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 {label = _U('neck_thick'),				name = 'neck_thick',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
-
 ```
 ```markdown
 Syntax highlighted code block
