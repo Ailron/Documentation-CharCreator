@@ -15,7 +15,7 @@ CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
 Après être assuré d'avoir installer au moins les deux ressources obligatoires , il vous faudras faire quelques modifications dessus pour que CharCreator fonctionne correctement.
 
 ### SkinChanger
-Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/main.lua` à partir de la ligne 1 il vous faudra impérativement rajouter si vous ne les possédez pas déjà (vérifiez les doublons) ceci :
+Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/main.lua` à partir de la ligne 1 , il vous faudra impérativement rajouter cette partie de code . **Attention selon votre version certaine ligne de ce code se situe peut-être déjà dans votre liste vérifiez donc les doublons** :
 
 ```markdown
 -- CharCreator Section
@@ -41,7 +41,6 @@ Selon la version de SkinChanger que vous possédez , à l'intérieur du `client/
 {label = _U('chin_width'),				name = 'chin_width',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 {label = _U('chin_hole'),				name = 'chin_hole',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
 {label = _U('neck_thick'),				name = 'neck_thick',			value = 0.0,	min = 0,	zoomOffset = 0.4,		camOffset = 0.65},
-
 
 ```
 ```markdown
