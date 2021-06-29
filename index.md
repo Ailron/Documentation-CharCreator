@@ -6,7 +6,10 @@ CharCreator is a script under RageUI which reconstructs the GTA ONLINE character
 
 CharCreator is a heavy resource and needs to have some basic dependencies to work for the best experience.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+CharCreator will need several dependencies for its work:
+- skinchanger
+- esx_skin
+- esx_identity (optional)
 
 ```markdown
 Syntax highlighted code block
