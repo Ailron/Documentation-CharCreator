@@ -2,9 +2,9 @@
 
 CharCreator is a script under RageUI which reconstructs the GTA ONLINE character creation as closely as possible when when you started Online.
 
-CharCreator is a heavy resource and needs to have some basic dependencies to work for the best experience.
+### Dependency
 
-### Pour Commencer
+CharCreator is a heavy resource and needs to have some basic dependencies to work for the best experience.
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
