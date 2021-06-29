@@ -7,7 +7,7 @@ CharCreator est un script sous RageUI reconstituant au plus proche la création 
 CharCreator est une ressource assez lourde et doit posséder quelques dépendances basiques pour fonctionner et avoir la meilleure expérience .
 
 CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
-- skinchanger
+- [skinchanger](https://github.com/esx-framework/skinchanger)
 - esx_skin
 - esx_identity (facultatif)
 
