@@ -54,7 +54,7 @@ A cela :
 ```markdown
 {label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8, clothe = true},
 ```
-Et vous répéterez cela pour tous ce qui vous sont demandez .
+Et vous répéterez cela pour tous ceux qui vous sont demandez .
 ```markdown
 Syntax highlighted code block
 
