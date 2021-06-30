@@ -43,6 +43,8 @@ main > nav {
 	position: sticky;
 	top: 2rem;
   	left: 0;
+	z-index: 1;
+	overflow-x: hidden;
 	align-self: start;
 }
 
