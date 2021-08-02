@@ -55,6 +55,19 @@ A cela :
 {label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8, clothe = true},
 ```
 Et vous répéterez cela pour tous ceux qui vous sont demandez .
+
+Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData (playerPed, Character['face'], Character['face'], Character['face'], Character['skin'], Character['skin'], Character['skin'], 1.0, 1.0, 1.0, true)` par :
+```markdown
+  	SetPedHeadBlendData			(playerPed, Character['mom'], Character['dad'], nil, Character['mom'], Character['dad'], nil, Character['face'], Character['skin'], nil, true)
+
+	local Face = {[0] = 'nose_1', [1] = 'nose_2', [2] = 'nose_3', [3] = 'nose_4', [4] = 'nose_5', [5] = 'nose_6', [6] = 'eyebrows_5', [7] = 'eyebrows_6', [8] = 'cheeks_2', [9] = 'cheeks_1', [10] = 'cheeks_3', [11] = 'eye_open', [12] = 'lips_thick', [13] = 'jaw_1', [14] = 'jaw_2', [15] = 'chin_height', [16] = 'chin_lenght', [17] = 'chin_width', [18] = 'chin_hole', [19] = 'neck_thick'}
+
+	for k,v in pairs(Face) do
+		if Character[v] then
+			SetPedFaceFeature(GetPlayerPed(-1), k, Character[v])
+		end
+	end
+```
 ```markdown
 Syntax highlighted code block
 
