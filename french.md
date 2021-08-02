@@ -56,7 +56,7 @@ A cela :
 ```
 Et vous répéterez cela pour tous ceux qui vous sont demandez .
 
-Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData (playerPed, Character['face'], Character['face'], Character['face'], Character['skin'], Character['skin'], Character['skin'], 1.0, 1.0, 1.0, true)` jusqu'à la fin de la fonction par :
+Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData(playerPed, Character['face'], Character['face'], Character['face'], Character['skin'], Character['skin'], Character['skin'], 1.0, 1.0, 1.0, true)` jusqu'à la fin de la fonction par :
 ```markdown
   	SetPedHeadBlendData(playerPed, Character['mom'], Character['dad'], nil, Character['mom'], Character['dad'], nil, Character['face'], Character['skin'], nil, true)
 
