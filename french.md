@@ -159,6 +159,10 @@ AddEventHandler('esx_identity:checkidentity', function(value,check)
 	TriggerClientEvent('charcreator:receivecheck', source, identity)
 end)
 ```
+# Configuration
+Le fichier `config.lua` permet de configurer quelques paramètres du script sans toucher au codes pour personnaliser le script à votre façon . L'intérieur du config vous explique déjà chaque configuration et son utilité .
+
+Le fichier `messages.lua` est la traduction du script sous 2 langues : Anglais et Français . Vous pouvez si vous le souhaitez modifiez les traductions , sachez que les traductions se réfèrent le plus possible à celui de la création de personnage GTA:Online et que certaines traductions ont été reformuler pour plus de sens .
 
 ```markdown
 Syntax highlighted code block
