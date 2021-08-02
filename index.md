@@ -15,6 +15,7 @@ CharCreator will need several dependencies for its work:
 After making sure you have installed at least the two mandatory resources, you will need to make some modifications to them for it's working.
 ### Esx_skin
 1. Depending on the version of esx_skin , inside `client/main.lua` , replace line 295 : `TriggerEvent('skinchanger:loadSkin', {sex = 0}, OpenSaveableMenu)` by 
+
 ```markdown
 TriggerEvent('charcreator:CharCreator')
 ```
