@@ -20,7 +20,7 @@ After making sure you have installed at least the two mandatory resources, you w
 TriggerEvent('charcreator:CharCreator')
 ```
 ### SkinChanger
-1. Depending on the version of Skinchanger you have, inside `client / main.lua` from line 1, you will need to add this part of the code.
+1. Depending on the version of Skinchanger you have, inside `client/main.lua` from line 1, you will need to add this part of the code.
 **Be careful depending on your version, certain line of this code may already be in your list so check for duplicates** :
 
 ```markdown
