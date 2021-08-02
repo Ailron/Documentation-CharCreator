@@ -140,6 +140,7 @@ SetPedPropIndex(playerPed, 1, Character['glasses_1'], Character['glasses_2'], 2)
 1. Si vous souhaitez la partie identité dans le script alors suivez cette installation .
 Selon la version de esx_identity que vous possédez , à l'intérieur du `server/main.lua` ,
 PLacez ce morceau de code :
+
 ```markdown
 RegisterNetEvent('esx_identity:checkidentity')
 AddEventHandler('esx_identity:checkidentity', function(value,check)
@@ -158,6 +159,7 @@ AddEventHandler('esx_identity:checkidentity', function(value,check)
 	TriggerClientEvent('charcreator:receivecheck', source, identity)
 end)
 ```
+
 ```markdown
 Syntax highlighted code block
 
