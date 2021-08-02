@@ -163,7 +163,7 @@ end)
 # Configuration
 The `config.lua` file allows you to configure some script parameters without touching the codes to customize the script your way. The inside of the config already explains each configuration and its usefulness.
 
-The file `messages.lua` is the translation of the script in 2 languages: English and French. You can change the translations if you wish, be aware that the translations refer as much as possible to that of the GTA: Online character creation and that some translations have been rephrased for more meaning.
+The `messages.lua` file is the translation of the script in 2 languages: English and French. You can change the translations if you wish, be aware that the translations refer as much as possible to that of the GTA: Online character creation and that some translations have been rephrased for more meaning.
 
 # Crédits
 Based on the source of [NicooPasPris](https://github.com/NicooPasPris/nicoo_charcreator)
