@@ -14,7 +14,7 @@ CharCreator aura besoin de plusieurs dépendance pour son fonctionnement :
 # Installation
 Après être assuré d'avoir installer au moins les deux ressources obligatoires , il vous faudras faire quelques modifications dessus pour que CharCreator fonctionne correctement.
 ### Esx_skin
-Selon la version de esx_skin , à l'intérieur de `client/main.lua` , remplacer la ligne 295 : `TriggerEvent('skinchanger:loadSkin', {sex = 0}, OpenSaveableMenu)` par 
+1.Selon la version de esx_skin , à l'intérieur de `client/main.lua` , remplacer la ligne 295 : `TriggerEvent('skinchanger:loadSkin', {sex = 0}, OpenSaveableMenu)` par 
 ```markdown
 TriggerEvent('charcreator:CharCreator')
 ```
@@ -50,17 +50,17 @@ TriggerEvent('charcreator:CharCreator')
 2. Pour la catégorie vêtements , CharCreator a besoin de savoir quelles sont les vêtements à ajouter dans cette catégories , Toujours à partir de la ligne 1 jusqu'à la fin de la liste il vous faudras ajouter à l'intérieur de chaque ligne mentionnée, une variable : `clothe = true` pour les lignes où `name` =
  `'tshirt_1'` , `'tshirt_2'` , `'torso_1'` , `'torso_2'` , `'decals_1'` , `'decals_2'` , `'arms'` , `'arms_2'` , `'pants_1'` , `'pants_2'` , `'shoes_1'` , `'shoes_2'` , `'mask_1'` , `'mask_2'` , `'chain_1'` , `'chain_2'` , `'helmet_1'` , `'helmet_2'` , `'glasses_1'` , `'glasses_2'` , `'watches_1'` , `'watches_2'` , `'bracelets_1'` , `'bracelets_2'` , `'bags_1'` , `'bags_2'`.
  
-Exemple : pour `'tshirt_1'` vous passerez de cela :
+3. Exemple : pour `'tshirt_1'` vous passerez de cela :
 ```markdown
 {label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8},
 ```
-A cela :
+4. A cela :
 ```markdown
 {label = _U('tshirt_1'), name = 'tshirt_1', value = 0, min = 0, zoomOffset = 0.75, camOffset = 0.15, componentId = 8, clothe = true},
 ```
-Et vous répéterez cela pour tous ceux qui vous sont demandez .
+5. Et vous répéterez cela pour tous ceux qui vous sont demandez .
 
-Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData(playerPed, Character['face'], Character['face'], Character['face'], Character['skin'], Character['skin'], Character['skin'], 1.0, 1.0, 1.0, true)` jusqu'à la fin de la fonction par :
+6. Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData(playerPed, Character['face'], Character['face'], Character['face'], Character['skin'], Character['skin'], Character['skin'], 1.0, 1.0, 1.0, true)` jusqu'à la fin de la fonction par :
 ```markdown
 SetPedHeadBlendData(playerPed, Character['mom'], Character['dad'], nil, Character['mom'], Character['dad'], nil, Character['face'], Character['skin'], nil, true)
 
@@ -134,7 +134,7 @@ SetPedPropIndex(playerPed, 1, Character['glasses_1'], Character['glasses_2'], 2)
 
 ```
 ### Esx_identity
-Si vous souhaitez la partie identité dans le script alors suivez cette installation .
+1. Si vous souhaitez la partie identité dans le script alors suivez cette installation .
 Selon la version de esx_identity que vous possédez , à l'intérieur du `server/main.lua` ,
 PLacez ce morceau de code :
 ```markdown
