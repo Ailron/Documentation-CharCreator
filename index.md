@@ -1,8 +1,8 @@
-## Presentation
+# Presentation
 
 CharCreator is a script under RageUI which reconstructs the GTA ONLINE character creation as closely as possible when when you started Online.
 
-### Dependency
+# Dependency
 
 CharCreator is a heavy resource and needs to have some basic dependencies to work for the best experience.
 
