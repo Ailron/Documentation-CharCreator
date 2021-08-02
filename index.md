@@ -138,8 +138,8 @@ end
 SetPedPropIndex(playerPed, 1, Character['glasses_1'], Character['glasses_2'], 2) 								-- Glasses
 
 ```
-### Esx_identity
-1. If you want the identity part in the script , follow this installation.
+### Esx_identity (optional)
+1. If you have installed esx_identity and you want the identity part in the script , follow this setup.
 Depending on the version of esx_identity you have, inside the `server/main.lua`,
 Place this piece of code:
 
