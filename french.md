@@ -130,6 +130,27 @@ Dans la fonction `ApplySkin` , modifiez la ligne `SetPedHeadBlendData(playerPed,
 
 ```
 ### Esx_identity
+Si vous souhaitez la partie identité dans le script alors suivez cette installation .
+Selon la version de esx_identity que vous possédez , à l'intérieur du `server/main.lua` ,
+PLacez ce morceau de code :
+```markdown
+RegisterNetEvent('esx_identity:checkidentity')
+AddEventHandler('esx_identity:checkidentity', function(value,check)
+	-- print('lancé')
+	local identity = false
+	if check == "name" then
+		identity = checkNameFormat(value)
+	elseif check == "dob" then
+		identity = checkDOBFormat(value)
+	elseif check == "sex" then
+		identity = checkSexFormat(value)
+	elseif check == "height" then
+		identity = checkHeightFormat(value)
+	end
+
+	TriggerClientEvent('charcreator:receivecheck', source, identity)
+end)
+```
 ```markdown
 Syntax highlighted code block
 
