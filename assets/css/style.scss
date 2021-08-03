@@ -125,6 +125,11 @@ li {
     width: 100%;
     height: 60%;
 }
+@media (max-width:700px){
+		.waveWrapper {
+				width: 200%;
+		}
+}
 .waveWrapperInner {
     position: absolute;
     width: 100%;
