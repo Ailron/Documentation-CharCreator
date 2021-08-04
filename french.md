@@ -136,29 +136,7 @@ end
 SetPedPropIndex(playerPed, 1, Character['glasses_1'], Character['glasses_2'], 2) 								-- Glasses
 
 ```
-### Esx_identity (optionnelle)
-1. Si vous avez installé esx_identity et vous souhaitez la partie identité du script alors suivez cette installation .
-Selon la version de esx_identity que vous possédez , à l'intérieur du `server/main.lua` ,
-PLacez ce morceau de code :
 
-```markdown
-RegisterNetEvent('esx_identity:checkidentity')
-AddEventHandler('esx_identity:checkidentity', function(value,check)
-	-- print('lancé')
-	local identity = false
-	if check == "name" then
-		identity = checkNameFormat(value)
-	elseif check == "dob" then
-		identity = checkDOBFormat(value)
-	elseif check == "sex" then
-		identity = checkSexFormat(value)
-	elseif check == "height" then
-		identity = checkHeightFormat(value)
-	end
-
-	TriggerClientEvent('charcreator:receivecheck', source, identity)
-end)
-```
 # Configuration
 Le fichier `config.lua` permet de configurer quelques paramètres du script sans toucher au codes pour personnaliser le script à votre façon . L'intérieur du config vous explique déjà chaque configuration et son utilité .
 
