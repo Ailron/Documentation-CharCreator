@@ -143,5 +143,5 @@ Le fichier `config.lua` permet de configurer quelques paramètres du script sans
 Le fichier `messages.lua` est la traduction du script sous 2 langues : Anglais et Français . Vous pouvez si vous le souhaitez modifiez les traductions , sachez que les traductions se réfèrent le plus possible à celui de la création de personnage GTA:Online et que certaines traductions ont été reformuler pour plus de sens .
 
 # Crédits
-Basé sur la ressource de [NicooPasPris](https://github.com/NicooPasPris/nicoo_charcreator)
+Basé sur la ressource de [NicooPasPris](https://github.com/NicooPasPris/nicoo_charcreator)  
 En dépendance avec [RageUI](https://github.com/iTexZoz/RageUI) de iTexZoz (un français comme moi)
