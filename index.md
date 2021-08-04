@@ -146,3 +146,4 @@ The `messages.lua` file is the translation of the script in 2 languages: English
 
 # Credits
 Based on the resource of [NicooPasPris](https://github.com/NicooPasPris/nicoo_charcreator)
+In dependency with [RageUI](https://github.com/iTexZoz/RageUI) by iTexZoz
